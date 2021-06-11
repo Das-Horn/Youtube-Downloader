@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Downloader</title>
+        <link rel="icon" href="Assets/icon.png"\>
+        <link rel="stylesheet" href="index.css"/>
+        <script type="text/javascript" src="/eel.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/index.js"></script>
+        <script type="text/javascript">
+            
+            eel.expose(LoadingChecks,"LChecks");
+            eel.expose(getVideoID);
+            eel.expose(LoadingScreen);
+            eel.expose(setProgressBar);
+
+        </script>
+    </head>
+    <body onload="LoadingChecks('Initializing..',false)">
+        <!-- Loading screen elements go here-->
+        <div class="Screen-Div" style="visibility: visible;z-index:10;">
+            <img id="Loading-Gif" src="https://i.imgur.com/jtkTPvb.gif?noredirect" alt="Loading" />
+            <p class="Text" id="Loading-Text">Loading Text ...</p>
+        </div>
+        <!-- Main screen elements go here-->
+        <div class="Screen-Div" style="visibility: hidden;">
+            <img class="Theme-Change" src="Assets/Theme-Icon.png" onclick="CSSVarChange()"/>
+            <img class="Theme-Change" id="folder" src="Assets/folder.png" onclick="eel.openFileLocation()"/>
+            <h1 class="Text" id="Title-Text">Youtube Downloader</h1>
+            <div class="Vid-Back" id="Thumbnail">
+                <div id="Thumbnail-Graid"></div>
+                <p class="Text" id="VidTitle">Please enter a URL.</p>
+            </div>
+            <div id="inputs-Cont">
+                <input type="text" onchange="TestChange()" id="URL-Input" placeholder="URL" />
+
+                <p class="Text">Delete Blank videos after completion?</p>
+                <input type="checkbox" id="Vid-Del-Check"/>
+            </div>
+            <div class="Buttons-Cont" style="visibility: inherit;">
+                <button class="DL-Buttons" onclick="DLVideo(false),LoadingScreen(1)" id="B1">Download Video</button>
+                <button class="DL-Buttons" onclick="DLVideo(true),LoadingScreen(1)" id="B2">Download MP3</button>
+
+            </div>
+            <div id="progress-background">
+                <p class="Text">Downloading ...</p>
+                <div id="progress-bar">
+                    <div id="current-progress">
+                        <p class="Text" id="progress-text">0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,282 @@
+/*
+                                                Variables Go here
+*/
+:root {
+    --PlaceHolder-color: #ffffff;
+    --Text-Color: #ffffff;
+    --Background-Gradient:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 54%, rgba(79,79,79,1) 100%);
+    --Progress-Background:#bebebe;
+    --Progress-Color:#ff9676;
+    transition: all 0.5s ease-in-out;
+}
+/*
+                                                  Elements Go Bellow
+*/
+
+body{
+    overflow: hidden;
+    width: auto;
+    min-width: 500px;
+    min-height: 500px;
+    height:auto;
+}
+
+h1{
+    color: red !important;
+    font-size: 2.5em !important;
+    text-shadow: 0px 0px 11px #ffe9e9;
+}
+
+/*
+                                                   Classes go bellow
+*/
+
+.Screen-Div{
+    width: 100%;
+    height: 100%;
+    flex: auto;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    justify-content: space-evenly;
+    display: flex;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    background: var(--Background-Gradient);
+    transition: all 0.5s ease-in-out;
+}
+
+.Text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Text-Color);
+    font-size: medium;
+}
+
+.Buttons-Cont{
+    /*position: absolute;*/ 
+    /* top: 55%; */
+    width: 70%;
+    flex-wrap: wrap-reverse;
+    /* left: 15%; */
+    align-content: center;
+    padding: 5px;
+    box-shadow: 4px 3px 13px 3px #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20%;
+    border-radius: 15px;
+    background-color: #777777;
+}
+
+.Vid-Back{
+    position: relative;
+    /* top: 5%; */
+    width: 70%;
+    /* flex-wrap: wrap-reverse; */
+    /* left: 15%; */
+    align-content: baseline;
+    display: flex;
+    /* box-shadow: 4px 3px 13px 3px #191919; */
+    flex-direction: column;
+    /* padding: 5px; */
+    justify-content: flex-end;
+    background-position: center;
+    overflow: hidden;
+    background-size: 100%;
+    height: 35%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-color: #777777;
+    transition: all 0.5s ease-out;
+}
+
+
+.Vid-Back:hover{
+    filter:grayscale(100%);
+    background-size: 125%;
+}
+
+
+.DL-Buttons{
+    border: none;
+    width: 70%;
+    height: 30%;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background-color: #4a4a4a;
+    transition:all 0.5s ease-in-out;
+}
+
+.DL-Buttons:hover{
+    background-color: red !important;
+}
+
+.Theme-Change{
+    position: absolute;
+    top:0;
+    right:0;
+    margin:2px;
+    width:3%;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.Theme-Change:hover{
+    width:5%;
+    animation: rotation 2s infinite linear;
+}
+
+/*
+                                            ID's go bellow
+*/
+
+#progress-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Progress-Background);
+    z-index: 2;
+    transition: all 0.5s ease-out;
+}
+
+#progress-bar{
+    width: 80%;
+    height: 5%;
+    background-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-text{
+    margin: 0;
+    padding: 15px;
+}
+
+#current-progress{
+    background-color: #ff8e8e;
+    width: 0%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+    /* top: 0; */
+    /* position: relative; */
+}
+
+#Loading-Gif{
+    top: 20%;
+    left: 35%;
+    width: 30%;
+}
+
+#folder{
+    right: 4% !important;
+}
+
+#Loading-Text{
+    top: 55%;
+    padding: 0;
+    font-size: 45px;
+    left: 30%;
+}
+
+#inputs-Cont{
+    /* position: absolute; */
+    /* top: 30%; */
+    width: 70%;
+    /* flex-wrap: wrap-reverse; */
+    /* left: 15%; */
+    align-content: flex-start;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 3px 13px 3px #191919;
+    justify-content: center;
+    height: 20%;
+    border-radius: 15px;
+    background-color: #777777;
+}
+
+#URL-Input{
+    border: none;
+    text-align: center;
+    border-bottom: solid;
+    border-color: #000000;
+    height: 25%;
+    border-radius: 3px 3px 0px 0px;
+    background-color: #3c3c3c;
+    color: white;
+    transition: all;
+    transition-duration: 750ms;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#VisTitle{
+    text-shadow: 3px 3px 2px black;
+    font-weight: bold;
+}
+
+#URL-Input:focus{
+    outline: none;
+    border-color: red !important;
+}
+
+#URL-Input:hover{
+    border-color: rgb(255,105,97);
+}
+
+#Thumbnail-Graid{
+    background:linear-gradient(0deg, #000000 0%,#000000a8 30%, #00000000 100%);
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+#VidTitle{
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 black;
+}
+
+/*
+                                           MISC Properties
+*/
+
+::placeholder{
+    text-align: center;
+    color: var(--PlaceHolder-color);
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    text-align: center;
+    color: var(--PlaceHolder-color);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    text-align: center;
+    color: var(--PlaceHolder-color);
+  }
+
+  /*
+                                            Key Frame Animations
+  */
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  

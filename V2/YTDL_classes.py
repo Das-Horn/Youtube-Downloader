@@ -11,6 +11,7 @@ class video:
         self.__tmp_path = tempfile.TemporaryDirectory().name
         self.__main_path = os.path.join(str(Path.home()), "Videos", "YTDL")
         self.__Title = str()
+        self.__thumbnail = str()
         self.__yt = pytube.YouTube(self.__link)
 
         self.__init_file_sys()
@@ -30,12 +31,24 @@ class video:
                 except Exception as e:
                     print("Encountered an exception while creating file system:\t"+e) 
     
+    def change_link(self,link):
+        self.__link = link
+        self.__yt = pytube.YouTube(self.__link)
+
     #MetaData methods
     def __set_meta(self,yt):
         stream = yt.streams
+        self.__thumbnail = yt.thumbnail_url
         stream = stream.filter(adaptive=True).first()
         self.__Title = stream.title
         return
+    
+    def get_meta(self):
+        """Method to get the video title and thumbnail.
+        Returns an array
+        """
+        self.__set_meta(self.__yt)
+        return [self.__Title,self.__thumbnail]
 
     #Downloading methods
     def download(self,Aud=bool()):
@@ -138,6 +151,19 @@ class settings:
     def write_queue(self,data=dict()):
         """A method to write to the queue"""
         self.__data = data
+
+class queue:
+    def __init__(self) -> None:
+        self.__queue = []
+        self.__running = False
+
+    def set_queue(self,data=list()):
+        self.__queue = data
+
+    def get_queue(self):
+        return self.__queue
+
+
 
 def main():
     Set =  settings()

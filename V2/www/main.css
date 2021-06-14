@@ -1,9 +1,14 @@
 :root{
---header-height:100px;
---bg-grad-top:#583939;
---bg-grad-bottom:#151313;
+    --header-height-int:100;
+    --header-height:100px;
+    --bg-grad-top:#583939;
+    --bg-grad-bottom:#151313;
+    --Text-color:#fff;
+    --Text-size-standard:1em;
+    --content-height:calc(100% - var(--header-height));
 }
-body{
+
+html,body{
     overflow: hidden;
     padding: 0;
     margin:0;
@@ -22,6 +27,7 @@ body{
     left:0;
     width:100%;
     height:var(--header-height);
+    border-bottom: 2px solid #fff;
 }
 
 #content{
@@ -29,9 +35,36 @@ body{
     top:var(--header-height);
     left:0;
     width:100%;
-    height:calc(100% - var(--header-height));
+    height:var(--content-height);
+}
+
+#icon{
+    height: calc(var(--header-height)*0.75);
+    top: calc((var(--header-height)*0.25)/2);
+    position: relative;
+}
+#Title{
+    display: inline;
+    font-size:  calc(var(--Text-size-standard)*(var(--header-height-int)/50));
+    height: 100%;
+    position: relative;
+    bottom: calc(var(--header-height)/8);
+    margin: 0;
+}
+
+#video-cont{
+    width:100%;
+}
+
+#queue-cont{
+    width:100%;
 }
 
 /*
     Classes go below
 */
+.Text{
+    font-family: Arial;
+    font-size: var(--Text-size-standard);
+    color: var(--Text-color)
+}

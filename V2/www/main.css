@@ -6,6 +6,8 @@
     --Text-color:#fff;
     --Text-size-standard:1em;
     --content-height:calc(100% - var(--header-height));
+    --deactive-color: #f00;
+    --active-color: #0f0;
 }
 
 html,body{
@@ -53,18 +55,110 @@ html,body{
 }
 
 #video-cont{
-    width:100%;
+    display: flex;
+    width: 100%;
+    height: 50%;    
 }
 
 #queue-cont{
-    width:100%;
+    width: 100%;
+    height: 50%;
+    border-top: 2px #fff solid;
 }
 
-/*
-    Classes go below
-*/
-.Text{
+#video-cont-left{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#video-cont-right{
+    width: 50%;
+    height: 100%;
+}
+
+
+#form-cont{
+    background-color: #4A3737;
+    width: 70%;
+    right: -15%;
+    height: 70%;
+    border-radius: 10px;
+    border: 2px #fff solid;
+    position: relative;
+    top: 15%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(4,auto);
+}
+
+#link {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 5px;
+    background: none;
+    border: none;
+    border-bottom: 2px #fff solid;
+    font-size: calc(var(--Text-size-standard)*(var(--header-height-int)/50));
+    padding: 0;
+    height: 80%;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    line-height: 100%;
+  }
+
+  #link:active{
+      
+    outline: none;
+    /*! border-bottom-color: var(--active-color); */
+  }
+
+  #MP3-button{
+
+  }
+  #vid-button{
+
+    grid-column-start: 3;
+  }
+  #down-button{
+      
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  #thumbnail{
+    image-rendering: optimizequality;
+    height: 70%;
+    width: 70%;
+    position: relative;
+    top: 5%;
+    left: 15%;
+    border: 2px #fff solid;
+    border-radius: 10px;
+  }
+  #video-title{
+      text-align: center;
+  }
+  /*
+  Classes go below
+  */
+  .Text{
     font-family: Arial;
     font-size: var(--Text-size-standard);
     color: var(--Text-color)
+}
+.button-def {
+    margin: 5px;
+    width: 70%;
+    left: 15%;
+    position: relative;
+    height: 70%;
+    top: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--deactive-color);
 }

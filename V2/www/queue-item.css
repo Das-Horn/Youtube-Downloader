@@ -1,0 +1,46 @@
+/*
+Template CSS for queue items goes here
+*/
+.queue-box {
+  width: 100%;
+  height: var(--queue-item-height);
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: #4a3737;
+  border-bottom: solid #fff 2px;
+}
+.Text.queue-text {
+  width: 25%;
+  height: 30px;
+  margin: 30px 0 0 0;
+  /*! margin: ; */
+}
+.progress-cont {
+  width: 40%;
+  height: calc(var(--queue-item-height)/2);
+  margin-top: calc(var(--queue-item-height)/4);
+  background-color: var(--bg-grey);
+  overflow: hidden;
+  border-radius: 30px;
+}
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: var(--deactive-color);
+  border-radius: 30px;
+  transition: all 2s ease-in-out;
+}
+.Text.queue-Status {
+  width: 10%;
+  height: 30px;
+  margin: 30px 0 0 0;
+  /*! margin-top: 25px; */
+}
+.Text.progress-text {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  /*! justify-content: center; */
+  text-align: end;
+  padding-top: 10px;
+}

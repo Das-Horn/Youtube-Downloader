@@ -2,6 +2,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="queue-item.css">
+        <script src="index.js"></script>
     </head>
     <body>
         <div id="header">
@@ -16,10 +18,10 @@
                 </div>
                 <div id="video-cont-right">
                     <div id="form-cont">
-                        <input type="text" id="link" class="Text" />
-                        <button id="MP3-button" class="button-def Text">MP3 Only</button>
+                        <input type="text" id="link" placeholder="Enter link here..." class="Text" />
+                        <button id="MP3-button" onclick="mp3toggle()" class="button-def Text">MP3 Only</button>
                         <button id="vid-button" class="button-def Text">Open Videos</button>
-                        <button id="down-button" class="button-def Text">Download</button>
+                        <button id="down-button" onclick="download()" class="button-def Text">Download</button>
                     </div>
                 </div>
             </div>
@@ -29,3 +31,17 @@
         </div>
     </body>
 </html>
+
+<!--
+    Template code for the queue boxes
+
+                    <div class="queue-box">
+                    <p class="Text queue-text">Video Title</p>
+                    <p class="Text queue-Status">Downloading</p>
+                    <div class="progress-cont">
+                        <div class="progress-bar">
+                            <p class="Text progress-text">0%</p>
+                        </div>
+                    </div>
+                </div>
+-->

@@ -8,6 +8,8 @@
     --content-height:calc(100% - var(--header-height));
     --deactive-color: #f00;
     --active-color: #0f0;
+    --queue-item-height:80px;
+    --bg-grey:#333333;
 }
 
 html,body{
@@ -64,6 +66,7 @@ html,body{
     width: 100%;
     height: 50%;
     border-top: 2px #fff solid;
+    overflow:auto;
 }
 
 #video-cont-left{
@@ -161,4 +164,6 @@ html,body{
     border: none;
     border-radius: 5px;
     background-color: var(--deactive-color);
+    transition: all 0.5s ease-in-out;
 }
+

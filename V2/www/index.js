@@ -18,3 +18,12 @@ function download(){
     const container = document.getElementById("queue-cont");
     container.innerHTML += queueBox;
 }
+
+function updateMeta(){
+    const link = document.getElementById("link").value;
+    getVidData(recieveMeta,link);
+}
+function recieveMeta(data){
+    currentTitle = data[0];
+    currentThumbnailURL = data[1];
+}

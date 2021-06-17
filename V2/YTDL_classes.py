@@ -34,6 +34,7 @@ class video:
     def change_link(self,link):
         self.__link = link
         self.__yt = pytube.YouTube(self.__link)
+        self.__set_meta(self.__yt)
 
     #MetaData methods
     def __set_meta(self,yt):

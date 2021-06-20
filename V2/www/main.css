@@ -8,6 +8,7 @@
     --content-height:calc(100% - var(--header-height));
     --deactive-color: #f00;
     --active-color: #0f0;
+    --NA-color:#1b1b1b;
     --queue-item-height:80px;
     --bg-grey:#333333;
 }
@@ -126,12 +127,18 @@ html,body{
   }
   #vid-button{
 
-    grid-column-start: 3;
-  }
+grid-column-start: 3;
+
+}
   #down-button{
       
-    grid-column-start: 1;
-    grid-column-end: 4;
+grid-column-start: 1;
+      
+grid-column-end: 4;
+      
+width: 70%;
+      
+left: 15%;
   }
   #thumbnail{
     image-rendering: optimizequality;
@@ -155,9 +162,9 @@ html,body{
     color: var(--Text-color)
 }
 .button-def {
-    margin: 5px;
-    width: 70%;
-    left: 15%;
+    margin: 0;
+    width: 100%;
+    left: 0;
     position: relative;
     height: 70%;
     top: 10%;

@@ -29,6 +29,7 @@ function download(){
     const queueBox = '<div class="queue-box"><p class="Text queue-text">'+currentTitle+'</p><p class="Text queue-Status">Downloading</p><div class="progress-cont"><div class="progress-bar"><p class="Text progress-text">0%</p></div></div></div>';
     const container = document.getElementById("queue-cont");
     container.innerHTML += queueBox;
+    downloadVideo(NaN,mp3State);
 }
 
 function updateMeta(){
@@ -37,9 +38,15 @@ function updateMeta(){
 }
 
 function recieveMeta(data){
-    currentTitle = data[0];
-    currentThumbnailURL = data[1];
-    document.getElementById("thumbnail").src = currentThumbnailURL;
-    document.getElementById("video-title").innerHTML = currentTitle;
-    downloadButtonCheck();
+    if(data[0] != 0){
+        currentTitle = data[0];
+        currentThumbnailURL = data[1];
+        document.getElementById("thumbnail").src = currentThumbnailURL;
+        document.getElementById("video-title").innerHTML = currentTitle;
+        validDownload = true;
+        downloadButtonCheck();
+    }else {
+        validDownload = false;
+        downloadButtonCheck();
+    }
 }

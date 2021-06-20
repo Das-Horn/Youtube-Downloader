@@ -14,12 +14,23 @@ def create_instance(js_callback=None ,linkin=str()):
 
 def download_video(js_callback=None,mp3=bool()):
     print("downloading video now")
+    if mp3:
+        vid.download(Aud=True)
+    else:
+        vid.download(Aud=False)
+    return
+
+def video_dl_prog(prog=int()):
+    return
+
+def set_status():
     return
 
 def init_ui():
     cef_ui = create_browser_instance()
     cef_ui.init_javascript_bindings()
     cef_ui.add_javascript_bindings("getVidData",create_instance)
+    cef_ui.add_javascript_bindings("downloadVideo",download_video)
     cef_ui.set_javascript_bindings()
     cef_ui.start()
     return

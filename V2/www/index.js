@@ -3,6 +3,8 @@ var currentTitle = "Random Song";
 var currentThumbnailURL = "";
 var validDownload = false;
 
+window.onload(setProgressionFunction)
+
 function mp3toggle(){
     const tgl = document.getElementById("MP3-button");
     if(mp3State){
@@ -12,6 +14,10 @@ function mp3toggle(){
         mp3State = true;
         tgl.style.backgroundColor = "var(--active-color)";
     }
+}
+
+function setProgressionFunction(){
+    setProg(downloadProgress)
 }
 
 function downloadButtonCheck(){
@@ -26,6 +32,8 @@ function downloadButtonCheck(){
 }
 
 function download(){
+    validDownload = false;
+    downloadButtonCheck();
     const queueBox = '<div class="queue-box"><p class="Text queue-text">'+currentTitle+'</p><p class="Text queue-Status">Downloading</p><div class="progress-cont"><div class="progress-bar"><p class="Text progress-text">0%</p></div></div></div>';
     const container = document.getElementById("queue-cont");
     container.innerHTML = queueBox + container.innerHTML;
@@ -52,5 +60,15 @@ function recieveMeta(data){
 }
 
 function downloadProgress(prog){
-    const container = document.getElementByClass("queue-box")[0];
+    console.log("updating progress:\t"+prog);
+    const container = document.getElementsByClassName("queue-box")[0];
+    if(prog == 100){
+        container.children[1].innerHTML = "Complete"; 
+        validDownload = true;
+        downloadButtonCheck();
+    }else if(prog == 65){
+        container.children[1].innerHTML = "Post processing"; 
+    }
+    container.children[2].children[0].style.width = prog+"%";
+    container.children[2].children[0].children[0].innerHTML = prog+"%";
 }

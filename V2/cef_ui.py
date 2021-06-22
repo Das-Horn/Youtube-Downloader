@@ -2,6 +2,8 @@ from cefpython3 import cefpython as cef
 import platform
 import sys
 
+import cefpython3
+
 
 class create_browser_instance:
     def __init__(self):
@@ -43,6 +45,9 @@ class create_browser_instance:
     
     def set_javascript_bindings(self):
         self.browser.SetJavascriptBindings(self.bindings)
+    
+    def exec_func(self,func=str(),*arg):
+        self.browser.ExecuteFunction(func,arg)
 
 
 

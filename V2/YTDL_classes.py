@@ -9,6 +9,7 @@ from pathlib import Path
 class video:
     def __init__(self, link=str(), prog_fun=object()) -> None:
         self.__link = link
+        self.__callback_prog = prog_fun
         self.__current_file_size = int()
         self.__tmp_path = tempfile.TemporaryDirectory().name
         self.__main_path = os.path.join(str(Path.home()), "Videos", "YTDL")
@@ -38,7 +39,7 @@ class video:
     def change_link(self, link):
         print("changing link of the video.")
         self.__link = link
-        self.__yt = pytube.YouTube(link)
+        self.__yt = pytube.YouTube(link,on_progress_callback=self.__callback_prog)
         print("finished updating variables:\nlink:\t" +
               self.__link+"\nupdating meta data now.")
         self.__set_meta(self.__yt)
@@ -73,7 +74,9 @@ class video:
             self.__convert_audio(yt_title)
             if Aud == False:
                 self.__video_dl(yt_title, yt_streams)
+            self.__callback_prog(0,0,0,stat="proc")
             self.__video_post(yt_title, Aud)
+            self.__callback_prog(0,0,0,stat="comp")
             print("Finished Downloading video")
         except Exception as e:
             print("Video download has failed:\t"+str(e))

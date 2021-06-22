@@ -7,13 +7,14 @@ from pathlib import Path
 
 
 class video:
-    def __init__(self, link=str()) -> None:
+    def __init__(self, link=str(), prog_fun=object()) -> None:
         self.__link = link
+        self.__current_file_size = int()
         self.__tmp_path = tempfile.TemporaryDirectory().name
         self.__main_path = os.path.join(str(Path.home()), "Videos", "YTDL")
         self.__Title = str()
         self.__thumbnail = str()
-        self.__yt = pytube.YouTube(self.__link)
+        self.__yt = pytube.YouTube(self.__link,on_progress_callback=prog_fun)
 
         self.__init_file_sys()
     # Init Methods
@@ -66,6 +67,7 @@ class video:
         try:
             yt_streams = self.__yt.streams
             yt_title = yt_streams.get_audio_only().default_filename
+            self.__current_file_size = yt_streams.get_audio_only().filesize
             yt_title = yt_title[:-4]
             self.__audio_dl(yt_title, yt_streams)
             self.__convert_audio(yt_title)
@@ -126,6 +128,9 @@ class video:
 
     def get_main_dir(self):
         return self.__main_path
+    
+    def get_file_size(self):
+        return self.__current_file_size
 
 
 class settings:

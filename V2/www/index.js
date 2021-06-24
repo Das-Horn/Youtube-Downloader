@@ -67,7 +67,11 @@ function downloadProgress(prog){
         validDownload = true;
         downloadButtonCheck();
     }else if(prog == 65){
-        container.children[1].innerHTML = "Post processing"; 
+        container.children[1].innerHTML = "Post processing Audio"; 
+    }else if(prog == 75){
+        container.children[1].innerHTML = "Downloading Video"; 
+    }else if(prog == 80){
+        container.children[1].innerHTML = "Post processing Video"; 
     }
     container.children[2].children[0].style.width = prog+"%";
     container.children[2].children[0].children[0].innerHTML = prog+"%";

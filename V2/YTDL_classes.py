@@ -71,10 +71,12 @@ class video:
             self.__current_file_size = yt_streams.get_audio_only().filesize
             yt_title = yt_title[:-4]
             self.__audio_dl(yt_title, yt_streams)
+            self.__callback_prog(0,0,0,stat="proc")
             self.__convert_audio(yt_title)
             if Aud == False:
+                self.__callback_prog(0,0,0,stat="downVid")
                 self.__video_dl(yt_title, yt_streams)
-            self.__callback_prog(0,0,0,stat="proc")
+            self.__callback_prog(0,0,0,stat="procVid")
             self.__video_post(yt_title, Aud)
             self.__callback_prog(0,0,0,stat="comp")
             print("Finished Downloading video")

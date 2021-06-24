@@ -1,384 +1,60 @@
-[0620/144325.372:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache /prefetch:2
+[0624/130432.034:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache /prefetch:2
 
-[0620/144325.374:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
+[0624/130432.037:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
 
-[0620/144325.375:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
+[0624/130432.038:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
 
-[0620/144325.376:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAA4CAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US /prefetch:2
+[0624/130432.039:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAA4CAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US /prefetch:2
 
-[0620/144325.418:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
+[0624/130432.154:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
 
-[0620/144325.420:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
+[0624/130432.156:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
 
-[0620/144325.509:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
+[0624/130432.223:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
 
-[0620/144325.563:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=renderer --no-sandbox --service-pipe-token=A26BBC565EBFB8086CE0EC0D7E28B9C7 --lang=en-US --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --disable-web-security --disable-gpu-shader-disk-cache /prefetch:1
+[0624/130432.276:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=renderer --no-sandbox --service-pipe-token=D6A3984391BDA76E3DF3082631D9880A --lang=en-US --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --disable-web-security --disable-gpu-shader-disk-cache /prefetch:1
 
-[0620/144325.587:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+[0624/130432.331:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
 
-[0620/144325.589:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+[0624/130432.335:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
 
-[0620/144325.590:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
+[0624/130432.336:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 3213352
 
-[0620/144325.591:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 526974
+[0624/130432.337:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
 
-[0620/144325.592:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
+[0624/130432.338:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
 
-[0620/144325.593:INFO:cef_log.cpp(8)] [Browser process] MessageLoop()
+[0624/130432.343:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
 
-[0620/144325.594:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
+[0624/130432.345:INFO:cef_log.cpp(8)] [Browser process] MessageLoop()
 
-[0620/144325.685:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
+[0624/130432.422:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
 
-[0620/144325.691:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
+[0624/130432.427:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
 
-[0620/144325.691:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+[0624/130432.427:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
 
-[0620/144325.692:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
+[0624/130432.427:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
 
-[0620/144325.693:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
+[0624/130432.428:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
 
-[0620/144325.693:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
+[0624/130432.428:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
 
-[0620/144325.779:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
+[0624/130432.690:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
 
-[0620/144328.017:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
+[0624/130434.723:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
 
-[0620/144328.019:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
+[0624/130434.724:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
 
-[0620/144328.020:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
+[0624/130434.724:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
 
-[0620/144328.025:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
+[0624/130434.729:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
 
-[0620/144328.027:INFO:cef_log.cpp(8)] [Browser process] PyTaskRunnable: taskId=1, func=QuitMessageLoop
+[0624/130434.729:INFO:cef_log.cpp(8)] [Browser process] PyTaskRunnable: taskId=1, func=QuitMessageLoop
 
-[0620/144328.028:INFO:cef_log.cpp(8)] [Browser process] QuitMessageLoop()
+[0624/130434.730:INFO:cef_log.cpp(8)] [Browser process] QuitMessageLoop()
 
-[0620/144328.031:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
+[0624/130434.732:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
 
-[0620/144328.333:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
-
-[0620/144345.624:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache /prefetch:2
-
-[0620/144345.627:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
-
-[0620/144345.627:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
-
-[0620/144345.628:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAA4CAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US /prefetch:2
-
-[0620/144345.678:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
-
-[0620/144345.679:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
-
-[0620/144345.767:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
-
-[0620/144345.828:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=renderer --no-sandbox --service-pipe-token=A048AF33E9585C7C8A1769FADACF0EF2 --lang=en-US --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --disable-web-security --disable-gpu-shader-disk-cache /prefetch:1
-
-[0620/144345.853:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/144345.854:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/144345.855:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/144345.856:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
-
-[0620/144345.857:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 199176
-
-[0620/144345.858:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
-
-[0620/144345.859:INFO:cef_log.cpp(8)] [Browser process] MessageLoop()
-
-[0620/144345.948:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
-
-[0620/144345.954:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
-
-[0620/144345.954:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/144345.955:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
-
-[0620/144345.956:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
-
-[0620/144345.957:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
-
-[0620/144346.035:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/144425.698:INFO:v8function_handler.cpp(39)] [Renderer process] V8FunctionHandler::Execute(): js binding
-
-[0620/144425.698:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): V8FunctionHandler::Execute
-
-[0620/144425.700:INFO:cef_log.cpp(8)] [Browser process] V8FunctionHandler_Execute(): funcName=getVidData
-
-[0620/144425.702:INFO:cef_log.cpp(8)] [Browser process] Created javascript callback, callbackId=1, functionName=recieveMeta
-
-[0620/144428.210:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=ExecuteJavascriptCallback, arguments size=2
-
-[0620/144428.212:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): ExecuteJavascriptCallback
-
-[0620/144513.890:INFO:v8function_handler.cpp(39)] [Renderer process] V8FunctionHandler::Execute(): js binding
-
-[0620/144513.890:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): V8FunctionHandler::Execute
-
-[0620/144513.892:INFO:cef_log.cpp(8)] [Browser process] V8FunctionHandler_Execute(): funcName=getVidData
-
-[0620/144513.893:INFO:cef_log.cpp(8)] [Browser process] Created javascript callback, callbackId=2, functionName=recieveMeta
-
-[0620/144538.804:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=ExecuteJavascriptCallback, arguments size=2
-
-[0620/144538.805:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): ExecuteJavascriptCallback
-
-[0620/144547.008:INFO:v8function_handler.cpp(39)] [Renderer process] V8FunctionHandler::Execute(): js binding
-
-[0620/144547.009:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): V8FunctionHandler::Execute
-
-[0620/144547.010:INFO:cef_log.cpp(8)] [Browser process] V8FunctionHandler_Execute(): funcName=getVidData
-
-[0620/144547.011:INFO:cef_log.cpp(8)] [Browser process] Created javascript callback, callbackId=3, functionName=recieveMeta
-
-[0620/144649.735:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=ExecuteJavascriptCallback, arguments size=2
-
-[0620/144649.737:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): ExecuteJavascriptCallback
-
-[0620/144844.505:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
-
-[0620/144844.507:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
-
-[0620/144844.508:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
-
-[0620/144844.511:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
-
-[0620/144844.512:INFO:javascript_callback.cpp(99)] [Renderer process] RemoveJavascriptCallbacksForFrame(): removed js callback from the map
-
-[0620/144844.512:INFO:javascript_callback.cpp(99)] [Renderer process] RemoveJavascriptCallbacksForFrame(): removed js callback from the map
-
-[0620/144844.512:INFO:javascript_callback.cpp(99)] [Renderer process] RemoveJavascriptCallbacksForFrame(): removed js callback from the map
-
-[0620/144844.513:INFO:cef_log.cpp(8)] [Browser process] PyTaskRunnable: taskId=1, func=QuitMessageLoop
-
-[0620/144844.514:INFO:cef_log.cpp(8)] [Browser process] QuitMessageLoop()
-
-[0620/144844.521:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
-
-[0620/144844.824:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
-
-[0620/144853.987:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache /prefetch:2
-
-[0620/144853.990:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
-
-[0620/144853.991:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
-
-[0620/144853.992:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAA4CAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US /prefetch:2
-
-[0620/144854.038:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
-
-[0620/144854.040:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
-
-[0620/144854.136:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
-
-[0620/144854.196:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=renderer --no-sandbox --service-pipe-token=D350FFEF8C5B6518B8359448D119FCAC --lang=en-US --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --disable-web-security --disable-gpu-shader-disk-cache /prefetch:1
-
-[0620/144854.216:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/144854.218:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/144854.220:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
-
-[0620/144854.221:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 1378768
-
-[0620/144854.222:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
-
-[0620/144854.223:INFO:cef_log.cpp(8)] [Browser process] MessageLoop()
-
-[0620/144854.224:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/144854.310:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
-
-[0620/144854.316:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
-
-[0620/144854.316:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/144854.317:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
-
-[0620/144854.318:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
-
-[0620/144854.319:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
-
-[0620/144854.408:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/144901.152:INFO:v8function_handler.cpp(39)] [Renderer process] V8FunctionHandler::Execute(): js binding
-
-[0620/144901.158:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): V8FunctionHandler::Execute
-
-[0620/144901.159:INFO:cef_log.cpp(8)] [Browser process] V8FunctionHandler_Execute(): funcName=getVidData
-
-[0620/144901.161:INFO:cef_log.cpp(8)] [Browser process] Created javascript callback, callbackId=1, functionName=recieveMeta
-
-[0620/144907.618:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=ExecuteJavascriptCallback, arguments size=2
-
-[0620/144907.619:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): ExecuteJavascriptCallback
-
-[0620/144914.493:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
-
-[0620/144914.495:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
-
-[0620/144914.497:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
-
-[0620/144914.504:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
-
-[0620/144914.504:INFO:javascript_callback.cpp(99)] [Renderer process] RemoveJavascriptCallbacksForFrame(): removed js callback from the map
-
-[0620/144914.507:INFO:cef_log.cpp(8)] [Browser process] PyTaskRunnable: taskId=1, func=QuitMessageLoop
-
-[0620/144914.508:INFO:cef_log.cpp(8)] [Browser process] QuitMessageLoop()
-
-[0620/144914.516:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
-
-[0620/144914.824:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
-
-[0620/145010.780:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache /prefetch:2
-
-[0620/145010.782:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
-
-[0620/145010.783:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
-
-[0620/145010.784:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAA4CAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US /prefetch:2
-
-[0620/145010.827:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
-
-[0620/145010.828:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
-
-[0620/145010.913:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
-
-[0620/145010.959:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=renderer --no-sandbox --service-pipe-token=C54487756A987019F3853F11276EC5FB --lang=en-US --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --disable-web-security --disable-gpu-shader-disk-cache /prefetch:1
-
-[0620/145010.983:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/145010.986:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/145010.987:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/145010.988:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
-
-[0620/145010.989:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 721244
-
-[0620/145010.990:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
-
-[0620/145010.991:INFO:cef_log.cpp(8)] [Browser process] MessageLoop()
-
-[0620/145011.076:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
-
-[0620/145011.081:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
-
-[0620/145011.082:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/145011.082:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
-
-[0620/145011.083:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
-
-[0620/145011.084:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
-
-[0620/145011.193:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/145013.622:INFO:v8function_handler.cpp(39)] [Renderer process] V8FunctionHandler::Execute(): js binding
-
-[0620/145013.623:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): V8FunctionHandler::Execute
-
-[0620/145013.624:INFO:cef_log.cpp(8)] [Browser process] V8FunctionHandler_Execute(): funcName=getVidData
-
-[0620/145013.627:INFO:cef_log.cpp(8)] [Browser process] Created javascript callback, callbackId=1, functionName=recieveMeta
-
-[0620/145020.304:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=ExecuteJavascriptCallback, arguments size=2
-
-[0620/145020.305:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): ExecuteJavascriptCallback
-
-[0620/145026.167:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
-
-[0620/145026.168:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
-
-[0620/145026.169:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
-
-[0620/145026.175:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
-
-[0620/145026.176:INFO:javascript_callback.cpp(99)] [Renderer process] RemoveJavascriptCallbacksForFrame(): removed js callback from the map
-
-[0620/145026.179:INFO:cef_log.cpp(8)] [Browser process] PyTaskRunnable: taskId=1, func=QuitMessageLoop
-
-[0620/145026.180:INFO:cef_log.cpp(8)] [Browser process] QuitMessageLoop()
-
-[0620/145026.188:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
-
-[0620/145026.496:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
-
-[0620/145224.068:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache /prefetch:2
-
-[0620/145224.070:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-web-security
-
-[0620/145224.071:INFO:cef_log.cpp(8)] [Browser process] Switch already set, ignoring: disable-gpu-shader-disk-cache
-
-[0620/145224.072:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=gpu-process --no-sandbox --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US --disable-web-security --disable-gpu-shader-disk-cache --gpu-preferences=KAAAAAAAAACAA4CAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --lang=en-US /prefetch:2
-
-[0620/145224.142:INFO:cef_log.cpp(8)] [Browser process] CreateBrowserSync() called
-
-[0620/145224.144:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync()
-
-[0620/145224.282:INFO:cef_log.cpp(8)] [Browser process] GetPyBrowser(): create new PyBrowser, browserId=1
-
-[0620/145224.351:INFO:cefpython_app.cpp(199)] [Browser process] OnBeforeChildProcessLaunch() command line: "C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\subprocess" --type=renderer --no-sandbox --service-pipe-token=CA87AFB6758D2AF2EC039496BC117EBC --lang=en-US --locales-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3\locales" --log-file=debug.log --log-severity=info --resources-dir-path="C:\Users\craig\AppData\Local\Programs\Python\Python39\Lib\site-packages\cefpython3" --disable-web-security --disable-gpu-shader-disk-cache /prefetch:1
-
-[0620/145224.375:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/145224.378:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/145224.379:INFO:cef_log.cpp(8)] [Browser process] CefBrowser::CreateBrowserSync() succeeded
-
-[0620/145224.379:INFO:cef_log.cpp(8)] [Browser process] CefBrowser window handle = 1575376
-
-[0620/145224.381:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=DoJavascriptBindings, arguments size=1
-
-[0620/145224.382:INFO:cef_log.cpp(8)] [Browser process] MessageLoop()
-
-[0620/145224.383:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): underlying frame does not yet exist: browserId = 1, frameId = -4
-
-[0620/145224.470:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): DoJavascriptBindings
-
-[0620/145224.476:INFO:cefpython_app.cpp(270)] [Renderer process] OnContextCreated()
-
-[0620/145224.477:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/145224.496:INFO:cefpython_app.cpp(561)] [Renderer process] DoJavascriptBindingsForFrame(): bindings are set
-
-[0620/145224.498:INFO:cef_log.cpp(8)] [Browser process] GetPyFrame(): create new PyFrame, frameId=2
-
-[0620/145224.509:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): OnContextCreated
-
-[0620/145224.510:INFO:cef_log.cpp(8)] [Browser process] V8ContextHandler_OnContextCreated()
-
-[0620/145229.628:INFO:v8function_handler.cpp(39)] [Renderer process] V8FunctionHandler::Execute(): js binding
-
-[0620/145229.629:INFO:client_handler.cpp(40)] [Browser process] OnProcessMessageReceived(): V8FunctionHandler::Execute
-
-[0620/145229.631:INFO:cef_log.cpp(8)] [Browser process] V8FunctionHandler_Execute(): funcName=getVidData
-
-[0620/145229.634:INFO:cef_log.cpp(8)] [Browser process] Created javascript callback, callbackId=1, functionName=recieveMeta
-
-[0620/145247.687:INFO:cef_log.cpp(8)] [Browser process] SendProcessMessage(): message=ExecuteJavascriptCallback, arguments size=2
-
-[0620/145247.690:INFO:cefpython_app.cpp(368)] [Renderer process] OnProcessMessageReceived(): ExecuteJavascriptCallback
-
-[0620/145257.025:INFO:cef_log.cpp(8)] [Browser process] LifespanHandler_OnBeforeClose
-
-[0620/145257.027:INFO:cef_log.cpp(8)] [Browser process] del g_pyFrames[1#2]
-
-[0620/145257.028:INFO:cef_log.cpp(8)] [Browser process] del g_pyBrowsers[1]
-
-[0620/145257.032:INFO:cefpython_app.cpp(318)] [Renderer process] OnContextReleased()
-
-[0620/145257.032:INFO:javascript_callback.cpp(99)] [Renderer process] RemoveJavascriptCallbacksForFrame(): removed js callback from the map
-
-[0620/145257.035:INFO:cef_log.cpp(8)] [Browser process] PyTaskRunnable: taskId=1, func=QuitMessageLoop
-
-[0620/145257.036:INFO:cef_log.cpp(8)] [Browser process] QuitMessageLoop()
-
-[0620/145257.040:INFO:cef_log.cpp(8)] [Browser process] Shutdown()
-
-[0620/145257.337:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
+[0624/130435.033:INFO:cef_log.cpp(8)] [Browser process] CefShutdown()
 
